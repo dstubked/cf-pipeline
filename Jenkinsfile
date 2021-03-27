@@ -1,4 +1,7 @@
 node {
+    
+    def app
+    
     stage('Clone repository') {
         /* Clone repository to our workspace */
 
